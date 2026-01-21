@@ -1,0 +1,13 @@
+Package: FCARfreq
+Type: Package
+Title: Functional conditional autoregressive (FCAR) models
+Version: 1.0
+Date: 2025-12-29
+Author: Sooran Kim
+Maintainer: Sooran Kim <Sooran.Kim@nyulangone.org>
+Description: The package implements the estimation and inference procedures proposed in "A new class of functional conditional autoregressive models".
+License: What license is it under?
+Imports: Rcpp (>= 1.0.13-1)
+LinkingTo: Rcpp, RcppArmadillo, testthat
+Suggests: xml2
+RoxygenNote: 7.3.2
