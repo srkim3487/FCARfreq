@@ -29,6 +29,6 @@ alphaHat <- colMeans(data)
 # Estimation
 est_FVE95 <- FCAR_est_fun(alphaHat, rhoHat=0.3, adj_mat, nbd_index, data, sel_p="FVE95")
 
-# Confidence Interval for the Spatial Dependence Parameter
+# Confidence interval for the spatial dependence parameter
 CI_fun(est_FVE95$p, est_FVE95$rhoHat, adj_mat)
 ```
